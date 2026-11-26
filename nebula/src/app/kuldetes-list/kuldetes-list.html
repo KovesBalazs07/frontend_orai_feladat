@@ -1,0 +1,56 @@
+
+<h1>Űrküldetések</h1>
+
+@if (kuldetesek.isLoading()) {
+  <p>Küldetések betöltése...</p>
+}
+
+@if (kuldetesek.error()) {
+  <p class="error">Nem sikerült betölteni a küldetéseket!</p>
+
+  <button (click)="kuldetesek.reload()">Újrapróbálás</button>
+}
+
+@if (errorMessage()) {
+  <p class="error">{{ errorMessage() }}</p>
+}
+
+@if (kuldetesek.hasValue()) {
+
+  @for (kuldetes of kuldetesek.value(); track kuldetes.id) {
+
+    <article class="kuldetes">
+
+      <h2>{{ kuldetes.cim }}</h2>
+
+      <p>Célpont: {{ kuldetes.celpont }}</p>
+
+      <p>Kapitány: {{ kuldetes.kapitany }}</p>
+
+      <p>Indítás: {{ kuldetes.inditas }}</p>
+
+      <p>Időtartam: {{ kuldetes.idotartamNap }} nap</p>
+
+      <p>Prioritás: {{ kuldetes.prioritas }}/5</p>
+
+      <p>Státusz: {{ kuldetes.statusz }}</p>
+
+      <h3>Legénység</h3>
+
+      <ul>
+        @for (tag of kuldetes.legenyseg; track tag) {
+          <li>{{ tag }}</li>
+        }
+      </ul>
+
+      <button (click)="changeStatus(kuldetes.id)">Teljesített</button>
+
+      <button (click)="remove(kuldetes.id)">Törlés</button>
+
+    </article>
+
+  } @empty {
+    <p>Még nincs küldetés.</p>
+  }
+
+}

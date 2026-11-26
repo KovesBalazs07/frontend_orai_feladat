@@ -1,0 +1,231 @@
+{
+  "urhajok": [
+    {
+      "id": "1",
+      "nev": "Hajnalcsillag",
+      "osztaly": "Felderítő",
+      "maxLegenyseg": 4,
+      "sebesseg": 72,
+      "epitesEve": 2141,
+      "kep": "urhajok/hajnalcsillag.png"
+    },
+    {
+      "id": "2",
+      "nev": "Vasmadár",
+      "osztaly": "Teherszállító",
+      "maxLegenyseg": 12,
+      "sebesseg": 35,
+      "epitesEve": 2128,
+      "kep": "urhajok/vasmadar.png"
+    },
+    {
+      "id": "3",
+      "nev": "Üstökös",
+      "osztaly": "Futárhajó",
+      "maxLegenyseg": 3,
+      "sebesseg": 91,
+      "epitesEve": 2150,
+      "kep": "urhajok/ustokos.png"
+    },
+    {
+      "id": "4",
+      "nev": "Aurora",
+      "osztaly": "Kutatóhajó",
+      "maxLegenyseg": 8,
+      "sebesseg": 58,
+      "epitesEve": 2145,
+      "kep": "urhajok/aurora.png"
+    },
+    {
+      "id": "5",
+      "nev": "Titánbálna",
+      "osztaly": "Bányászhajó",
+      "maxLegenyseg": 20,
+      "sebesseg": 22,
+      "epitesEve": 2119,
+      "kep": "urhajok/titanbalna.png"
+    },
+    {
+      "id": "6",
+      "nev": "Szikra",
+      "osztaly": "Mentőhajó",
+      "maxLegenyseg": 6,
+      "sebesseg": 80,
+      "epitesEve": 2148,
+      "kep": "urhajok/szikra.png"
+    }
+  ],
+  "kuldetesek": [
+    {
+      "id": "1",
+      "cim": "Jégvadászat",
+      "celpont": "Európé (Jupiter-hold)",
+      "urhajoId": "4",
+      "kapitany": "Kovács Luna",
+      "inditas": "2156-03-14",
+      "idotartamNap": 120,
+      "prioritas": 4,
+      "statusz": "folyamatban",
+      "legenyseg": [
+        "Kovács Luna",
+        "Tóth Bence",
+        "Varga Réka",
+        "Molnár Ádám"
+      ],
+      "leiras": "Mintavétel a jégpáncél alatti óceánból élet nyomai után kutatva."
+    },
+    {
+      "id": "2",
+      "cim": "Vörös Futár",
+      "celpont": "Mars, Olympus Bázis",
+      "urhajoId": "3",
+      "kapitany": "Szabó Márk",
+      "inditas": "2156-04-02",
+      "idotartamNap": 9,
+      "prioritas": 3,
+      "statusz": "teljesitett",
+      "legenyseg": [
+        "Szabó Márk",
+        "Kiss Dóra"
+      ],
+      "leiras": "Sürgős gyógyszerszállítmány a marsi kolónia kórházának."
+    },
+    {
+      "id": "3",
+      "cim": "Aszteroidaroham",
+      "celpont": "Kisbolygóöv, 16 Psyche",
+      "urhajoId": "5",
+      "kapitany": "Nagy Ottó",
+      "inditas": "2156-05-20",
+      "idotartamNap": 200,
+      "prioritas": 2,
+      "statusz": "tervezett",
+      "legenyseg": [
+        "Nagy Ottó",
+        "Balogh Ernő",
+        "Fekete Zita",
+        "Lakatos Gergő",
+        "Simon Pál"
+      ],
+      "leiras": "Fémben gazdag kisbolygó próbafúrása és nyersanyag-felmérés."
+    },
+    {
+      "id": "4",
+      "cim": "Gyűrűk tánca",
+      "celpont": "Szaturnusz, Titán",
+      "urhajoId": "1",
+      "kapitany": "Horváth Emma",
+      "inditas": "2156-02-01",
+      "idotartamNap": 75,
+      "prioritas": 3,
+      "statusz": "folyamatban",
+      "legenyseg": [
+        "Horváth Emma",
+        "Pintér Levente",
+        "Oláh Kinga"
+      ],
+      "leiras": "A Titán metántavainak feltérképezése alacsony pályáról."
+    },
+    {
+      "id": "5",
+      "cim": "Viharjelzés",
+      "celpont": "Neptunusz",
+      "urhajoId": "4",
+      "kapitany": "Kovács Luna",
+      "inditas": "2155-11-10",
+      "idotartamNap": 310,
+      "prioritas": 5,
+      "statusz": "megszakitott",
+      "legenyseg": [
+        "Kovács Luna",
+        "Tóth Bence",
+        "Rácz Nóra"
+      ],
+      "leiras": "Szupergyors szélviharok mérése – a hajó pajzshibája miatt félbeszakadt."
+    },
+    {
+      "id": "6",
+      "cim": "Holdi raktár",
+      "celpont": "Hold, Shackleton-kráter",
+      "urhajoId": "2",
+      "kapitany": "Farkas Imre",
+      "inditas": "2156-01-05",
+      "idotartamNap": 14,
+      "prioritas": 1,
+      "statusz": "teljesitett",
+      "legenyseg": [
+        "Farkas Imre",
+        "Juhász Tamás",
+        "Mészáros Lili",
+        "Bodnár Kristóf"
+      ],
+      "leiras": "Építőanyag és élelmiszer szállítása a déli-sarki bázisra."
+    },
+    {
+      "id": "7",
+      "cim": "Mentőakció Ío",
+      "celpont": "Ío (Jupiter-hold)",
+      "urhajoId": "6",
+      "kapitany": "Papp Szonja",
+      "inditas": "2156-03-28",
+      "idotartamNap": 21,
+      "prioritas": 5,
+      "statusz": "folyamatban",
+      "legenyseg": [
+        "Papp Szonja",
+        "Vincze Dániel"
+      ],
+      "leiras": "Vulkánkitörés miatt bajba jutott kutatócsoport kimentése."
+    },
+    {
+      "id": "8",
+      "cim": "Csendes Pont",
+      "celpont": "Lagrange L2 pont",
+      "urhajoId": "1",
+      "kapitany": "Horváth Emma",
+      "inditas": "2156-06-15",
+      "idotartamNap": 45,
+      "prioritas": 2,
+      "statusz": "tervezett",
+      "legenyseg": [
+        "Horváth Emma",
+        "Pintér Levente"
+      ],
+      "leiras": "Új mélyűr-távcső telepítési helyének előzetes felderítése."
+    },
+    {
+      "id": "9",
+      "cim": "Kométacsapda",
+      "celpont": "Halley-üstökös",
+      "urhajoId": "3",
+      "kapitany": "Szabó Márk",
+      "inditas": "2156-07-01",
+      "idotartamNap": 60,
+      "prioritas": 4,
+      "statusz": "tervezett",
+      "legenyseg": [
+        "Szabó Márk",
+        "Kiss Dóra",
+        "Takács Botond"
+      ],
+      "leiras": "Mintagyűjtés az üstökös csóvájából nagy sebességű elhaladással."
+    },
+    {
+      "id": "10",
+      "cim": "Titán-alagút",
+      "celpont": "Szaturnusz, Titán",
+      "urhajoId": "5",
+      "kapitany": "Nagy Ottó",
+      "inditas": "2155-09-18",
+      "idotartamNap": 180,
+      "prioritas": 3,
+      "statusz": "teljesitett",
+      "legenyseg": [
+        "Nagy Ottó",
+        "Balogh Ernő",
+        "Fekete Zita"
+      ],
+      "leiras": "Felszín alatti szállásmodul kifúrása a leendő kutatóbázis számára."
+    }
+  ]
+}
